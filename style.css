@@ -1,0 +1,41 @@
+:root {
+    background: linear-gradient(to left top, black, gray,white);
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Prata', serif;
+} 
+.font-bungee {
+    font-family: 'Bungee Spice', cursive;
+    margin-bottom: 5rem;
+}
+
+.btn {
+    font-family: 'Prata', serif !important;
+    font-size: 15px;
+}
+
+#highscore-btn {
+    font-family: 'Prata', serif !important;
+    font-size: 15px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 30rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
