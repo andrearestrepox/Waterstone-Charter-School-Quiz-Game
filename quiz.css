@@ -18,6 +18,59 @@
 }
 
 .choice-prefix {
-    padding: 2rem 2.5rem;
+    padding: 32px 40px;
     color: white;
+}
+
+.choice-text {
+    padding: 32px;
+    width:100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, lime) 0%, lime 100%;
+}
+
+.incorrect {
+    background: linear-gradient(32deg, red 0%, red 100%);
+}
+
+/* Heads up display */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 30px;
+}
+
+.hud-main-text {
+    text-align: center;
+
+}
+
+#progressBar {
+    width: 320px;
+    height: 48px;
+    border: 3.2px solid lime;
+    margin-top: 32px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: lime;
+    width: 0%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
 }
