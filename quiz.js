@@ -54,8 +54,15 @@ let questions = [
     },
 ]
 
+
+
+// CHANGE MAX AMOUNT OF QUESTIONS IF MORE QUESTIONS ARE BEING ADDED
+
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 5;
+
+
+
 
 startGame = () => {
     questionCounter = 0;
