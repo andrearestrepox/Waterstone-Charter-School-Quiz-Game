@@ -7,7 +7,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 // CHANGE AMOUNT OF MAX HIGH SCORE TO ALLOW MORE USERS TO GET ADDED 
 
-const MAX_HIGH_SCORE = 5;
+const MAX_HIGH_SCORE = 500;
 
 finalScore.innerText = mostRecentScore
 
@@ -32,7 +32,7 @@ saveHighScore = e => {
     // CHANGE THIS NUMBER IF ALLOWING MORE USERS TO LOG SCORES
 
 
-    highScores.splice(5)
+    highScores.splice(500)
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
     window.location.assign('/')

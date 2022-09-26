@@ -28,7 +28,7 @@
 }
 
 .correct {
-    background: linear-gradient(32deg, lime) 0%, lime 100%;
+    background: linear-gradient(32deg, lime 0%, lime 100%);
 }
 
 .incorrect {
